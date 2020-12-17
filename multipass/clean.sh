@@ -1,0 +1,3 @@
+multipass stop --all
+multipass delete --all
+multipass purge
