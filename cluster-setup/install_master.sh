@@ -13,9 +13,7 @@ echo 'alias k=kubectl' >> ~/.bashrc
 echo 'alias c=clear' >> ~/.bashrc
 echo 'complete -F __start_kubectl k' >> ~/.bashrc
 sed -i '1s/^/force_color_prompt=yes\n/' ~/.bashrc
-
-### Disable swap
-swapoff -a
+source ~/.bashrc
 
 ### install k8s and docker
 apt-get remove -y docker.io kubelet kubeadm kubectl kubernetes-cni
