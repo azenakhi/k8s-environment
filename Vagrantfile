@@ -2,7 +2,7 @@
 # vi:set ft=ruby sw=2 ts=2 sts=2:
 
 NUM_MASTER_NODE = 1
-NUM_WORKER_NODE = 3
+NUM_WORKER_NODE = 2
 
 Vagrant.configure("2") do |config|
   config.vm.box = "generic/ubuntu2010"
